@@ -1,0 +1,46 @@
+h1 {
+    position: fixed;
+    width: 80%;
+    border: solid 1px red;
+    z-index: 10;
+    background-color: aqua;
+    top: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+nav {
+    position: fixed;
+    width: 80%;
+    top: 40px;
+    border: solid red 1px;
+    z-index: 10;
+    background-color: aqua;
+    }
+
+ul {
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border: solid 1px red;
+    list-style: none;
+    }
+
+.personil {
+    margin: 40px auto;
+    border: solid 1px red; 
+    width: 80%; 
+}
+
+.profil {
+    margin: 200px auto;
+    position: relative;
+    top: 50px;
+    width: 80%;
+
+}
