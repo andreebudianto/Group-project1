@@ -1,0 +1,49 @@
+body {
+    height: 300vh;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .header {
+    height: 40px;
+    width: 100%;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+  }
+  
+  li{
+      display: inline-block;
+  }
+  
+  .main div {
+    height: 100px;
+  }
+  
+  .main2 {
+    height: 100px;
+  }
+  
+  .personil{
+    height: 100px;
+    border: 1px solid red;
+    padding: 20px 0;
+    overflow: auto;
+  }
+  
+  table.formulir{
+    text-align: left;
+    margin-left: 30%;
+}
+
+.wrap{
+    background: tan;
+    padding: 25px 0;
+    width: 65%;
+    margin-left: 18%;
+    border: 2px solid chocolate;
+    font-family: Arial;
+    font-size: 15px;
+}  
