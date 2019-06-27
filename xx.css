@@ -1,44 +1,56 @@
 header {
     position: absolute;
     top: 30px;
-    width: 100%;
     z-index: 10;
     background-image: url(https://images.unsplash.com/photo-1469026140142-cb239ea68152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
-    background-position: center;    
+    background-position: bottom center;
+    background-size: cover;    
     height: 500px;
+    width: 100%;
+    margin: auto;      
+}
+
+.banner {
+    background-color: rgba(66, 245, 236, 0.7);
+    padding: 10px;
+}
+
+body {
+    background-color: #c7e4ff;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    width: 80%;
 }
 
 h1 {
     width: 80%;
-    border: solid 1px red;
     z-index: 10;
-    top: 0;
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto;
+    font-size: 40px;
+    font-weight: 700;
 }
 
-
 nav {
-    width: 80%;
+    width: 100%;
     top: 40px;
-    border: solid red 1px;
     z-index: 10;
-    
     margin: 0 Auto;
     }
 
 ul {
-    margin: 0 70px;
+    margin: 0 300px;
 }
 
 li {
     display: inline-block;
-    width: 200px;
+    margin: 0 10px;
     height: 40px;
-    border: solid 1px red;
     list-style: none;
     text-align: center;
-    }
+    font-size: 18px;
+    
+}
 
 main {
     position: absolute;
@@ -48,14 +60,15 @@ main {
 
 }
 .personil {
-    margin: 40px auto;
-    border: solid 1px red; 
+    margin: 20px auto;
+    
     text-align: center; 
 }
 
 .profil {
     width: 80%;
     margin: 0 auto;
+    margin: 60px auto;
 }
 
 .back {
