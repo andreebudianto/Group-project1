@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulir Pedaftaran Pendakian Gunung</title>
+<link rel="stylesheet" href="Our Team.css" type="text/css">
+</head>
+<body>
+<div>
+	<div class="wrap">
+		<h2>Formulir Pendaftaran Pendakian Gunung</h2>
+		<br />
+		<form>
+			
+			<table border="0" cellpadding="10" class="formulir">
+				<tr>
+					<td width="120px">Nama Lengkap:</td>
+					<td><input type="text" name="nama" placeholder="Masukkan Nama Anda" /></td>
+				</tr>
+				<tr>
+					<td rowspan="2">Jenis Kelamin	:</td>
+					<td><input type="radio" name="jenis_kelamin" required="required" value="laki-laki" /> Laki - Laki</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="jenis_kelamin" required="required" value="perempuan" /> Perempuan</td>
+				</tr>
+				<tr>	
+					<td>Alamat	:</td>
+					<td><textarea name="alamat" rows="5" placeholder="Masukkan Alamat Anda"></textarea></td>
+				</tr>
+				<tr>
+					<td>Provinsi	:</td>
+					<td>
+						<select name="asal_kota" >
+							<option>DKI Jakarta</option>
+							<option>Jawa Barat</option>
+							<option>Jawa Timur</option>
+							<option>Jawa Tengah</option>
+							<option>Kalimantan Barat</option>
+							<option>Kalimantan Selatan</option>
+							<option>Kalimantan Tengah</option>
+							<option>Kalimantan Timur</option>
+							<option>Kalimantan Utara</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Pilihan Gunung	: </td>
+					<td><input type="checkbox" name="pilihan_gunung" /> Ciremai</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="pilihan_gunung" /> Semeru</td>
+				</tr>
+				<tr> 
+					<td>Pesan Tambahan	:</td>
+					<td><textarea name="pesan" rows="5" cols="50" placeholder="Tulis Pesan Disini ..."></textarea></td>
+				</tr>
+			</table>
+			
+			<input type="submit" value="Submit">
+			<input type="submit" value="Reset">
+			
+		</form>
+	</div>
+</div>
+</body>
+</html>
