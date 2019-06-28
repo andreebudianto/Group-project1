@@ -97,3 +97,17 @@ body {
     top: 9px;
 
   }
+  table.formulir{
+    text-align: left;
+    margin-left: 30%;
+}
+
+.wrap{
+    background: tan;
+    padding: 25px 0;
+    width: 65%;
+    margin-left: 18%;
+    border: 2px solid chocolate;
+    font-family: Arial;
+    font-size: 15px;
+} 
