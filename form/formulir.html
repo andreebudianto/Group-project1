@@ -2,15 +2,24 @@
 <html>
 <head>
 <title>Formulir Pedaftaran Pendakian Gunung</title>
-<link rel="stylesheet" href="Our Team.css" type="text/css">
+<link rel="stylesheet" href="formulir.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
 </head>
 <body>
-<div>
-	<div class="wrap">
+	<div class="banner">
+				<div class="navbar">
+					<ul>
+					  <a href="./index.html"><li>Home</li></a>
+					  <a href="./product.html"><li>Services</li></a>
+					  <a href="./contact.html"><li>Contact</li></a>
+					  <a href="./Our Team.html"><li>About Us</li></a>
+					</ul>
+				  </div>
+	</div>
+	<div class="formheader">
 		<h2>Formulir Pendaftaran Pendakian Gunung</h2>
 		<br />
-		<form>
-			
+		<form class="wrap">
 			<table border="0" cellpadding="10" class="formulir">
 				<tr>
 					<td width="120px">Nama Lengkap:</td>
@@ -25,7 +34,7 @@
 				</tr>
 				<tr>	
 					<td>Alamat	:</td>
-					<td><textarea name="alamat" rows="5" placeholder="Masukkan Alamat Anda"></textarea></td>
+					<td><textarea name="alamat" rows="7" placeholder="Masukkan Alamat Anda"></textarea></td>
 				</tr>
 				<tr>
 					<td>Provinsi	:</td>
@@ -44,15 +53,18 @@
 					</td>
 				</tr>
 				<tr>
-					<td rowspan="2">Pilihan Gunung	: </td>
-					<td><input type="checkbox" name="pilihan_gunung" /> Ciremai</td>
+					<td rowspan="3">Pilihan Gunung	: </td>
+					<td><input type="checkbox" name="pilihan_gunung" /> Bromo</td>
 				</tr>
 				<tr>
-					<td><input type="checkbox" name="pilihan_gunung" /> Semeru</td>
+					<td><input type="checkbox" name="pilihan_gunung" /> Kerinci</td>
 				</tr>
+				<tr>
+						<td><input type="checkbox" name="pilihan_gunung" /> Prau</td>
+					</tr>
 				<tr> 
 					<td>Pesan Tambahan	:</td>
-					<td><textarea name="pesan" rows="5" cols="50" placeholder="Tulis Pesan Disini ..."></textarea></td>
+					<td><textarea name="pesan" rows="7" placeholder="Tulis Pesan Disini ..."></textarea></td>
 				</tr>
 			</table>
 			
@@ -60,6 +72,10 @@
 			<input type="submit" value="Reset">
 			
 		</form>
+		<div class="image">
+				<img src="./kerinci.jpg" alt="bromo" width="350px">
+				<img src="./rinjani.png" alt="bromo" width="350px">	
+		</div>				
 	</div>
 </div>
 </body>
